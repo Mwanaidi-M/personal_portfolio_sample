@@ -1,0 +1,26 @@
+
+.navbar{
+  font-size: 20px;
+
+}
+.navbar-nav .nav-item .nav-link{
+  color: black;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 6px dotted grey;
+  color: #DC143C;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.intro{
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 70px;
+}
+h2{
+  font-size: 35px;
+}
+hr{
+  height: 0.5px;
+  background-color:gray
+}

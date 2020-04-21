@@ -1,0 +1,17 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block content %}
+<br><br><br>
+<div class="p-3 mb-2 text-dark">
+  <div class="text-center">
+    <h1 class="display-4" style='font-size:50px;'>Thank you so much for reading all my blogs. I am aware that you look forward to
+    reading some more so when I publish new posts I'll be sure to let you know. <span style='font-size:50px;'>&#128513;</span></h1>
+
+    <br><br><br><br>
+    <a href="{% url 'blog:all_blogs'%}" type="button" class="btn btn-outline-danger btn-lg">Back to Blogs</a>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br>
+{% endblock %}

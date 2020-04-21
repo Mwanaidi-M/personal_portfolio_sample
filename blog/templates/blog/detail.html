@@ -1,0 +1,24 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block content %}
+<br><br>
+<div class="p-3 mb-2 text-dark">
+  <div class="text-center">
+    <h1 class="display-4"><u>{{ blog.title }}</u></h1>
+    <h4 class="font-italic">--{{ blog.blog_date|date:'M dS Y' }}--</h4>
+  </div>
+</div>
+
+
+<br>
+<div class="container-lg">
+<p style="font-size:18px ;font-family:'Josefin Sans'">{{ blog.blog_text|safe}}</p>
+</div>
+<br>
+<div class="text-center">
+  <button type="button" name="blogs"class="btn btn-outline-danger btn-lg"><a href="{% url 'blog:all_blogs'%}" class="text-dark">Blogs</a></button>
+
+</div>
+<br><br><br><br><br><br><br><br>
+{% endblock %}
